@@ -1,0 +1,42 @@
+<div align="center">
+
+# ShareEvery
+
+**High-Speed Android ↔ Windows USB / Hotspot Network Bridge**
+
+[![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#download--quick-start)
+[![Version](https://img.shields.io/badge/Version-v3.1-28C759?style=flat-square)](#download--quick-start)
+[![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
+
+[简体中文](./README.md) · [English](./README_EN.md) · [Privacy Policy](./PRIVACY.md)
+
+</div>
+
+---
+
+## Key Features
+
+- **Native-Speed Throughput**: Prioritizes **USB Tethering (RNDIS)** kernel virtual Ethernet (`<1ms` hop), unlocks OS TCP Auto-Tuning, uses a 64KB zero-GC buffer pool and in-memory DNS caching on Android.
+- **Rock-Solid Concurrency & Streaming**: Elastic 1024-thread proxy engine with full bidirectional TCP Half-Close and fast circuit-breaking — built for AI streaming, HTTP/2, gRPC, and IDEs without `unexpected EOF`.
+- **Dual Modes**:
+  - **HTTP System Proxy (No UAC)**: Auto-configures Windows system proxy with LAN bypass rules (`localhost`, `192.168.*`, `10.*`).
+  - **TUN Global Mode (Pro)**: Wintun virtual adapter + built-in DNS-over-TCP forwarder for CLI tools, terminals, and full-system routing.
+- **High Availability**: 6-second link heartbeat with seamless failover (RNDIS → Wi-Fi → ADB), crash-safe proxy/route restoration, and one-click **Reset Network**.
+- **Unified Modern Design**: Consistent Light/Dark/Auto theme and English/Chinese i18n across Android and Windows.
+
+---
+
+## Trial & Pro Licensing
+
+- **Day 1 (24 Hours)**: Full Pro experience unlocked (TUN Global + Auto Failover + RNDIS).
+- **Days 2–8 (7 Days)**: Free Basic trial (HTTP System Proxy mode).
+- **Pro License**: One-time unlock via offline **ECDSA P-256** signed license key — no account required.
+
+---
+
+## Download & Quick Start
+
+Download the latest binaries from **[GitHub Releases](../../releases)**:
+1. Install `ShareEvery-Android-v3.0.0.apk` on your phone and tap the power button.
+2. Run `ShareEvery-Windows-v3.1.exe` on Windows (portable, no installer required).
+3. For maximum speed, connect via USB cable and enable **USB Tethering** on Android.
