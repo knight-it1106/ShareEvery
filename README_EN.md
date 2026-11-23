@@ -8,7 +8,7 @@
 [![Version](https://img.shields.io/badge/Version-v3.5.0-28C759?style=flat-square)](#download--quick-start)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
-[简体中文](./README.md) · [English](./README_EN.md) · [Privacy Policy](./PRIVACY.md)
+[简体中文](./README.md) · [English](./README_EN.md) · [Changelog](./CHANGELOG.md) · [Contributing & Copyright](./CONTRIBUTING.md) · [Privacy](./PRIVACY.md)
 
 </div>
 
@@ -40,3 +40,6 @@ Download the latest binaries from **[GitHub Releases](../../releases)**:
 1. Install `ShareEvery-Android-v3.5.0.apk` on your phone and tap the power button.
 2. Run `ShareEvery-Windows-v3.5.0.exe` on Windows (portable, no installer required).
 3. For maximum speed, connect via USB cable and enable **USB Tethering** on Android.
+
+> **Note**: Only the latest official release binaries are hosted under Releases; full version history is available in [CHANGELOG.md](./CHANGELOG.md).  
+> **Copyright**: © 2026 ShareEvery (`knight-it1106`). All Rights Reserved. See [LICENSE](./LICENSE) and [CONTRIBUTING.md](./CONTRIBUTING.md) for authorized derivative works.

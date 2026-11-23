@@ -8,7 +8,7 @@
 [![Version](https://img.shields.io/badge/Version-v3.5.0-28C759?style=flat-square)](#下载与安装)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
-[简体中文](./README.md) · [English](./README_EN.md) · [隐私与安全声明](./PRIVACY.md)
+[简体中文](./README.md) · [English](./README_EN.md) · [更新日志](./CHANGELOG.md) · [二创与版权规范](./CONTRIBUTING.md) · [隐私声明](./PRIVACY.md)
 
 </div>
 
@@ -50,10 +50,11 @@
 2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.5.0.exe`（免安装、绿色便携）。
 3. **满速推荐姿势**：用 USB 数据线连接电脑，在手机开启 **「USB 网络共享」**，电脑端会自动识别 RNDIS 极速通道，一键连接即可起飞。
 
-> 所有 Release 安装包均提供 `SHA256SUMS.txt` 哈希校验值，欢迎自行核验。
+> **说明**：为保障安全，[Releases](../../releases) 页面**仅保留最新正式版安装包**；所有历史版本的更新记录均可在 [CHANGELOG.md](./CHANGELOG.md) 中公开查阅。所有安装包均提供 `SHA256SUMS.txt` 哈希校验值。
 
 ---
 
-## 隐私与安全承诺
+## 隐私、版权与二次创作
 
-ShareEvery 是纯粹的**本地直连工具**，所有网络流量仅在您的电脑与手机之间通过 USB 或局域网传输，**绝不经过任何第三方中转服务器，不收集任何日志或隐私数据**。详见 [PRIVACY.md](./PRIVACY.md)。
+- **隐私承诺**：ShareEvery 是纯粹的**本地直连工具**，所有网络流量仅在您的电脑与手机之间通过 USB 或局域网传输，**绝不经过任何第三方中转服务器，不收集任何日志或隐私数据**。详见 [PRIVACY.md](./PRIVACY.md)。
+- **版权声明**：本项目采用 [All Rights Reserved](./LICENSE) 专有版权保护（Copyright © 2026 ShareEvery / `knight-it1106`）。如需二次创作或功能共创，请先阅读 [二创与版权规范](./CONTRIBUTING.md) 申请在主项目下创建分支开发并保留原作者署名。

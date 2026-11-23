@@ -1,6 +1,26 @@
-Copyright (c) 2026 ShareEvery. All rights reserved.
+ShareEvery Proprietary Software License (All Rights Reserved)
 
-This repository is for official binary distribution, documentation, and issue tracking only.
-The ShareEvery software binaries are proprietary software. You may download and use them for personal evaluation and licensed use under the terms displayed in the application.
+Copyright (c) 2026 ShareEvery (Author: knight-it1106). All Rights Reserved.
 
-Redistribution, reverse engineering, decompilation, repackaging, or commercial resale without explicit written permission from the copyright holder is strictly prohibited.
+1. 版权归属 / Ownership
+   ShareEvery 软件（包括但不限于 Android 客户端、Windows 客户端、云端授权服务、界面设计、图标、文档及相关衍生资料）的全部著作权与知识产权均归原作者 ShareEvery (knight-it1106) 所有。
+
+2. 使用许可 / Permitted Use
+   您仅被授予非独占、不可转让的个人使用许可，用于按官方发布形态安装和运行 ShareEvery 正式版本。
+
+3. 严格禁止事项 / Restrictions
+   未经原作者事先书面许可，严禁任何个人或组织从事以下行为：
+   - 对本软件进行反编译、反汇编、逆向工程或尝试提取加密配置与内部逻辑；
+   - 移除、篡改或遮挡软件内及文档中的原作者版权标识与署名信息；
+   - 将本软件安装包重新打包、篡改后进行二次分发、售卖或镜像托管；
+   - 将本软件或其任何部分用于未经授权的商业用途。
+
+4. 二次创作与协作授权 / Derivative Works & Contributions
+   如需基于本项目进行功能扩展、定制开发或二次创作：
+   - 必须事先联系原作者获取书面许可并受邀加入主项目协作仓库；
+   - 所有二创开发必须在原作者指定的项目仓库下创建独立分支（Branch）进行，禁止私自另建仓库分发；
+   - 任何经授权的衍生作品及公开说明中，必须显著标注原作者署名（ShareEvery / knight-it1106）。
+   详见本仓库 CONTRIBUTING.md。
+
+5. 免责声明 / Disclaimer
+   本软件按“现状（AS IS）”提供，不附带任何明示或暗示的担保。在适用法律允许的最大范围内，作者不对因使用或无法使用本软件而导致的任何直接或间接损失承担责任。
