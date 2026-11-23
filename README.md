@@ -5,7 +5,7 @@
 **Android ↔ Windows 极速 USB / 热点网络桥接与多设备共享工具**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#下载与安装)
-[![Version](https://img.shields.io/badge/Version-v3.7.0-28C759?style=flat-square)](#下载与安装)
+[![Version](https://img.shields.io/badge/Version-v3.8.0-28C759?style=flat-square)](#下载与安装)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [更新日志](./CHANGELOG.md) · [二创与版权规范](./CONTRIBUTING.md) · [隐私声明](./PRIVACY.md)
@@ -44,20 +44,21 @@
 
 ## 下载与安装
 
-### 一键高速下载（最新版 `v3.7.0`）
+### 一键高速下载（最新版 `v3.8.0`）
 
-> 中国大陆用户未配置代理时，推荐直接点击下方 **国内高速镜像线路** 一键下载；下载完成后可核对 [SHA256SUMS.txt](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/SHA256SUMS.txt) 确保安装包 100% 为官方原版。
+> 中国大陆用户未配置代理时，推荐直接点击下方 **国内高速镜像线路** 一键下载；下载完成后可核对 [SHA256SUMS.txt](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/SHA256SUMS.txt) 确保安装包 100% 为官方原版。
 
 | 平台 | 国内高速线路 1（推荐） | 国内高速线路 2（备用） | GitHub 官方源 |
 |---|---|---|---|
-| **Windows 电脑端** (`v3.7.0`, 绿色免安装) | [⚡ 极速下载 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [备用线路 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [官方直链 .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) |
-| **Android 手机端** (`v3.7.0`, Android 8+) | [⚡ 极速下载 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [备用线路 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [官方直链 .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) |
+| **Windows 电脑端** (`v3.8.0`, 绿色免安装) | [⚡ 极速下载 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) | [备用线路 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) | [官方直链 .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) |
+| **Android 手机端** (`v3.8.0`, Android 8+) | [⚡ 极速下载 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) | [备用线路 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) | [官方直链 .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) |
 
 ### 快速上手
 
-1. **Android 端**：安装 `ShareEvery-Android-v3.7.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
-2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.7.0.exe`（免安装、绿色便携）。
+1. **Android 端**：安装 `ShareEvery-Android-v3.8.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
+2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.8.0.exe`（免安装、绿色便携）。
 3. **满速推荐姿势**：用 USB 数据线连接电脑，在手机开启 **「USB 网络共享」**，电脑端会自动识别 RNDIS 极速通道，一键连接即可起飞。
+4. **共享给另一部手机 / iPad（免装客户端）**：在 Android 端开启「共享给其他移动设备」，另一部手机或 iPad 连入热点并按首页内置「指南」配置 PAC 即可直接上网（免费每日 90 分钟 / 单次 45 分钟，Pro 无限时长）。
 
 > **说明**：为保障安全，[Releases](../../releases) 页面**仅保留最新正式版安装包**；所有历史版本的更新记录均可在 [CHANGELOG.md](./CHANGELOG.md) 中公开查阅。
 

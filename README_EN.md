@@ -5,7 +5,7 @@
 **High-Speed Android ↔ Windows USB / Hotspot Network Bridge**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#download--quick-start)
-[![Version](https://img.shields.io/badge/Version-v3.7.0-28C759?style=flat-square)](#download--quick-start)
+[![Version](https://img.shields.io/badge/Version-v3.8.0-28C759?style=flat-square)](#download--quick-start)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [Changelog](./CHANGELOG.md) · [Contributing & Copyright](./CONTRIBUTING.md) · [Privacy](./PRIVACY.md)
@@ -38,12 +38,13 @@
 
 | Platform | Direct (GitHub Official) | Fast Mirror 1 (CN) | Fast Mirror 2 (CN) |
 |---|---|---|---|
-| **Windows** (`v3.7.0`, Portable) | [Download .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [Mirror 1 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [Mirror 2 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) |
-| **Android** (`v3.7.0`, Android 8+) | [Download .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [Mirror 1 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [Mirror 2 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) |
+| **Windows** (`v3.8.0`, Portable) | [Download .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) | [Mirror 1 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) | [Mirror 2 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) |
+| **Android** (`v3.8.0`, Android 8+) | [Download .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) | [Mirror 1 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) | [Mirror 2 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) |
 
-1. Install `ShareEvery-Android-v3.7.0.apk` on your phone and tap the power button.
-2. Run `ShareEvery-Windows-v3.7.0.exe` on Windows (portable, no installer required).
+1. Install `ShareEvery-Android-v3.8.0.apk` on your phone and tap the power button.
+2. Run `ShareEvery-Windows-v3.8.0.exe` on Windows (portable, no installer required).
 3. For maximum speed, connect via USB cable and enable **USB Tethering** on Android.
+4. **Share to Another Phone / iPad (Clientless)**: Enable **Share to Other Mobile Devices** on Android and follow the built-in Guide to set the PAC URL on iOS/iPadOS/Android (Free: 90 min/day, 45 min/session; Pro: unlimited).
 
 > **Note**: Only the latest official release binaries are hosted under Releases; full version history is available in [CHANGELOG.md](./CHANGELOG.md).  
 > **Copyright**: © 2026 ShareEvery (`knight-it1106`). All Rights Reserved. See [LICENSE](./LICENSE) and [CONTRIBUTING.md](./CONTRIBUTING.md) for authorized derivative works.
