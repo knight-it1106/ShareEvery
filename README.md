@@ -44,13 +44,22 @@
 
 ## 下载与安装
 
-请前往右侧 **[Releases](../../releases)** 页面下载最新版本安装包：
+### 一键高速下载（最新版 `v3.7.0`）
+
+> 中国大陆用户未配置代理时，推荐直接点击下方 **国内高速镜像线路** 一键下载；下载完成后可核对 [SHA256SUMS.txt](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/SHA256SUMS.txt) 确保安装包 100% 为官方原版。
+
+| 平台 | 国内高速线路 1（推荐） | 国内高速线路 2（备用） | GitHub 官方源 |
+|---|---|---|---|
+| **Windows 电脑端** (`v3.7.0`, 绿色免安装) | [⚡ 极速下载 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [备用线路 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [官方直链 .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) |
+| **Android 手机端** (`v3.7.0`, Android 8+) | [⚡ 极速下载 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [备用线路 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [官方直链 .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) |
+
+### 快速上手
 
 1. **Android 端**：安装 `ShareEvery-Android-v3.7.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
 2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.7.0.exe`（免安装、绿色便携）。
 3. **满速推荐姿势**：用 USB 数据线连接电脑，在手机开启 **「USB 网络共享」**，电脑端会自动识别 RNDIS 极速通道，一键连接即可起飞。
 
-> **说明**：为保障安全，[Releases](../../releases) 页面**仅保留最新正式版安装包**；所有历史版本的更新记录均可在 [CHANGELOG.md](./CHANGELOG.md) 中公开查阅。所有安装包均提供 `SHA256SUMS.txt` 哈希校验值。
+> **说明**：为保障安全，[Releases](../../releases) 页面**仅保留最新正式版安装包**；所有历史版本的更新记录均可在 [CHANGELOG.md](./CHANGELOG.md) 中公开查阅。
 
 ---
 

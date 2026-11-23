@@ -36,7 +36,11 @@
 
 ## Download & Quick Start
 
-Download the latest binaries from **[GitHub Releases](../../releases)**:
+| Platform | Direct (GitHub Official) | Fast Mirror 1 (CN) | Fast Mirror 2 (CN) |
+|---|---|---|---|
+| **Windows** (`v3.7.0`, Portable) | [Download .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [Mirror 1 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) | [Mirror 2 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Windows-v3.7.0.exe) |
+| **Android** (`v3.7.0`, Android 8+) | [Download .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [Mirror 1 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) | [Mirror 2 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.7.0/ShareEvery-Android-v3.7.0.apk) |
+
 1. Install `ShareEvery-Android-v3.7.0.apk` on your phone and tap the power button.
 2. Run `ShareEvery-Windows-v3.7.0.exe` on Windows (portable, no installer required).
 3. For maximum speed, connect via USB cable and enable **USB Tethering** on Android.
