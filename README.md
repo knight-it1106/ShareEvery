@@ -5,7 +5,7 @@
 **Android ↔ Windows 极速 USB / 热点网络桥接与多设备共享工具**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#下载与安装)
-[![Version](https://img.shields.io/badge/Version-v3.5.0-28C759?style=flat-square)](#下载与安装)
+[![Version](https://img.shields.io/badge/Version-v3.6.0-28C759?style=flat-square)](#下载与安装)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [更新日志](./CHANGELOG.md) · [二创与版权规范](./CONTRIBUTING.md) · [隐私声明](./PRIVACY.md)
@@ -46,8 +46,8 @@
 
 请前往右侧 **[Releases](../../releases)** 页面下载最新版本安装包：
 
-1. **Android 端**：安装 `ShareEvery-Android-v3.5.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
-2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.5.0.exe`（免安装、绿色便携）。
+1. **Android 端**：安装 `ShareEvery-Android-v3.6.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
+2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.6.0.exe`（免安装、绿色便携）。
 3. **满速推荐姿势**：用 USB 数据线连接电脑，在手机开启 **「USB 网络共享」**，电脑端会自动识别 RNDIS 极速通道，一键连接即可起飞。
 
 > **说明**：为保障安全，[Releases](../../releases) 页面**仅保留最新正式版安装包**；所有历史版本的更新记录均可在 [CHANGELOG.md](./CHANGELOG.md) 中公开查阅。所有安装包均提供 `SHA256SUMS.txt` 哈希校验值。
