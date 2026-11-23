@@ -5,7 +5,7 @@
 **Android ↔ Windows 极速 USB / 热点网络桥接与多设备共享工具**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#下载与安装)
-[![Version](https://img.shields.io/badge/Version-v3.1-28C759?style=flat-square)](#下载与安装)
+[![Version](https://img.shields.io/badge/Version-v3.4.1-28C759?style=flat-square)](#下载与安装)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [隐私与安全声明](./PRIVACY.md)
@@ -38,7 +38,7 @@
 | **基础版试用（随后 7 天）** | HTTP 系统代理模式 + 手动连接 | 持续验证日常办公与浏览体验 |
 | **Pro 永久买断版** | **永久解锁全部功能** | 含 TUN 全局、断线无感热切、多设备管理与 v3.x 免费更新 |
 
-> 激活码采用 **ECDSA P-256 非对称数字签名离线验证**，无需注册账号、无需上传任何个人数据。
+> 采用 **手机端在线鉴权 + 电脑端 ECDSA P-256 本地离线验签** 架构：只需在手机端激活一次，电脑通过 USB / Wi-Fi 连接手机后即自动离线解锁 Pro，电脑全程无需联网。
 
 ---
 
@@ -46,8 +46,8 @@
 
 请前往右侧 **[Releases](../../releases)** 页面下载最新版本安装包：
 
-1. **Android 端**：安装 `ShareEvery-Android-v3.0.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
-2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.1.exe`（免安装、绿色便携）。
+1. **Android 端**：安装 `ShareEvery-Android-v3.4.1.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
+2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.4.1.exe`（免安装、绿色便携）。
 3. **满速推荐姿势**：用 USB 数据线连接电脑，在手机开启 **「USB 网络共享」**，电脑端会自动识别 RNDIS 极速通道，一键连接即可起飞。
 
 > 所有 Release 安装包均提供 `SHA256SUMS.txt` 哈希校验值，欢迎自行核验。

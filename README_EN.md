@@ -5,7 +5,7 @@
 **High-Speed Android ↔ Windows USB / Hotspot Network Bridge**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#download--quick-start)
-[![Version](https://img.shields.io/badge/Version-v3.1-28C759?style=flat-square)](#download--quick-start)
+[![Version](https://img.shields.io/badge/Version-v3.4.1-28C759?style=flat-square)](#download--quick-start)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [Privacy Policy](./PRIVACY.md)
@@ -30,13 +30,13 @@
 
 - **Day 1 (24 Hours)**: Full Pro experience unlocked (TUN Global + Auto Failover + RNDIS).
 - **Days 2–8 (7 Days)**: Free Basic trial (HTTP System Proxy mode).
-- **Pro License**: One-time unlock via offline **ECDSA P-256** signed license key — no account required.
+- **Pro License**: Activate once on Android; Windows automatically unlocks offline via **ECDSA P-256** signed JWT verification upon connecting — no internet required on PC.
 
 ---
 
 ## Download & Quick Start
 
 Download the latest binaries from **[GitHub Releases](../../releases)**:
-1. Install `ShareEvery-Android-v3.0.0.apk` on your phone and tap the power button.
-2. Run `ShareEvery-Windows-v3.1.exe` on Windows (portable, no installer required).
+1. Install `ShareEvery-Android-v3.4.1.apk` on your phone and tap the power button.
+2. Run `ShareEvery-Windows-v3.4.1.exe` on Windows (portable, no installer required).
 3. For maximum speed, connect via USB cable and enable **USB Tethering** on Android.
