@@ -2,10 +2,10 @@
 
 # ShareEvery
 
-**Android ↔ Windows 极速 USB / 热点网络桥接与多设备共享工具**
+**Android ↔ Windows 极速无线 / 同 Wi-Fi / USB 网络桥接与多设备共享工具**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#下载与安装)
-[![Version](https://img.shields.io/badge/Version-v3.8.0-28C759?style=flat-square)](#下载与安装)
+[![Version](https://img.shields.io/badge/Version-v4.0.0-28C759?style=flat-square)](#下载与安装)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [更新日志](./CHANGELOG.md) · [二创与版权规范](./CONTRIBUTING.md) · [隐私声明](./PRIVACY.md)
@@ -18,13 +18,21 @@
 
 手机上的高速网络或企业内网隧道，往往难以稳定、满速地共享给电脑端使用——普通热点容易限速、断流、DNS 污染或 IP 漂移。**ShareEvery** 通过双端协同，将手机变成一台零额外开销的桌面级高速网络网关：
 
-- **逼近手机原生满速**：自动优先识别 **USB 网络共享（RNDIS 虚拟以太网）**，释放内核 TCP Auto-Tuning 窗口自动调优 + 64KB 零 GC 缓冲池 + 手机端内存 DNS 缓存，实测延迟 `<1ms`，吞吐比肩手机本地。
+- **优先支持同 Wi-Fi 纯无线共享（v4.0 重大升级）**：内置双端局域网动态发现与自定义端口自动同步，手机与电脑连在**同一个 Wi-Fi 下无需开启手机热点**即可直接开启 TUN 全局高速上网，完美适配无法同时开 Wi-Fi 与热点的老旧机型。
+- **全场景无线 / 有线自由切换**：支持同 Wi-Fi 无线、USB 网络共享（RNDIS 延迟 `<1ms`）、手机 5GHz 个人热点三种连接姿势；电脑端围绕启动按钮配备圆形连接进度环与实时分步提示。
 - **高并发不卡顿、长连接不断流**：独立弹性高并发协程池（最高 1024 并发），完整实现标准双向 TCP 半关闭（Half-Close）与失败节点快速熔断，流畅承载 IDE、AI 流式输出、HTTP/2、gRPC 与大文件下载。
-- **双模式一键切换**：
+- **双模式独立并行**：
   - **HTTP 系统代理模式（免 UAC）**：自动托管 Windows 系统代理并注入局域网智能绕过规则（`localhost` / `192.168.*` / `10.*` 直连），毫秒级生效。
   - **TUN 全局接管模式（Pro）**：Wintun 虚拟网卡 + 内置防污染 DNS-over-TCP 转发器，接管全系统、命令行（CLI）、开发工具与游戏流量。
-- **高可用防断网兜底**：6 秒链路心跳检测，USB 松动自动无感热切至 ADB / Wi-Fi 备用通道；进程退出或异常崩溃自动还原系统代理与路由，内置 **一键重置网络**。
-- **双端统一极简美学**：Android 与 Windows 共用同一套设计语言（浅色 / 深色 / 跟随系统 + 中英双语切换），全屏沉浸无广告。
+- **安全可控防蹭网**：支持「自动放行 / 手动审批」接入放权双模式（含后台高优先级通知审批）与移动设备免装共享（支持 iPhone / iPad / Android）。
+
+### 三种连接方式优缺点对比（按需选择）
+
+| 连接方式 | 推荐场景 | 优点 | 缺点 / 注意事项 |
+|---|---|---|---|
+| **📶 同 Wi-Fi 无线直连（优先推荐）** | 家庭 / 宿舍 / 普通办公室内 | **无需开热点、不挑旧手机硬件**、省电不发烫、纯无线自动发现并同步自定义端口、支持电脑 TUN 全局 | 若公共 Wi-Fi（酒店/校园网）开启了「AP 设备隔离」导致同网不可互访，需切换下方方式 |
+| **🔌 USB 一线直连（最稳满速）** | 长时间重度办公 / 游戏 / 公共 Wi-Fi 受限 | **延迟 `<1ms` 零抖动、边用边充电**、100% 穿透一切 Wi-Fi 设备隔离、最高物理级安全隔离 | 需要插一根 USB 数据线 |
+| **📡 手机个人热点（户外无线）** | 户外 / 出差无 Wi-Fi 环境 | 无需路由器即可无线连接并支持电脑 TUN 全局（开启 5GHz 频段可达 150~400 Mbps） | 长时间高负载转发略耗电发热，且部分旧手机硬件不支持 Wi-Fi 与热点同时开启 |
 
 ---
 
@@ -44,21 +52,21 @@
 
 ## 下载与安装
 
-### 一键高速下载（最新版 `v3.8.0`）
+### 一键高速下载（最新版 `v4.0.0`）
 
-> 中国大陆用户未配置代理时，推荐直接点击下方 **国内高速镜像线路** 一键下载；下载完成后可核对 [SHA256SUMS.txt](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/SHA256SUMS.txt) 确保安装包 100% 为官方原版。
+> 中国大陆用户未配置代理时，推荐直接点击下方 **国内高速镜像线路** 一键下载；下载完成后可核对 [SHA256SUMS.txt](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/SHA256SUMS.txt) 确保安装包 100% 为官方原版。
 
 | 平台 | 国内高速线路 1（推荐） | 国内高速线路 2（备用） | GitHub 官方源 |
 |---|---|---|---|
-| **Windows 电脑端** (`v3.8.0`, 绿色免安装) | [⚡ 极速下载 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) | [备用线路 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) | [官方直链 .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Windows-v3.8.0.exe) |
-| **Android 手机端** (`v3.8.0`, Android 8+) | [⚡ 极速下载 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) | [备用线路 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) | [官方直链 .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v3.8.0/ShareEvery-Android-v3.8.0.apk) |
+| **Windows 电脑端** (`v4.0.0`, 绿色免安装) | [⚡ 极速下载 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/ShareEvery-Windows-v4.0.0.exe) | [备用线路 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/ShareEvery-Windows-v4.0.0.exe) | [官方直链 .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/ShareEvery-Windows-v4.0.0.exe) |
+| **Android 手机端** (`v4.0.0`, Android 8+) | [⚡ 极速下载 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/ShareEvery-Android-v4.0.0.apk) | [备用线路 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/ShareEvery-Android-v4.0.0.apk) | [官方直链 .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.0/ShareEvery-Android-v4.0.0.apk) |
 
 ### 快速上手
 
-1. **Android 端**：安装 `ShareEvery-Android-v3.8.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
-2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v3.8.0.exe`（免安装、绿色便携）。
-3. **满速推荐姿势**：用 USB 数据线连接电脑，在手机开启 **「USB 网络共享」**，电脑端会自动识别 RNDIS 极速通道，一键连接即可起飞。
-4. **共享给另一部手机 / iPad（免装客户端）**：在 Android 端开启「共享给其他移动设备」，另一部手机或 iPad 连入热点并按首页内置「指南」配置 PAC 即可直接上网（免费每日 90 分钟 / 单次 45 分钟，Pro 无限时长）。
+1. **Android 端**：安装 `ShareEvery-Android-v4.0.0.apk`，打开后点击主电源开关开启共享（建议按提示关闭电池优化）。
+2. **Windows 端**：直接运行单文件版 `ShareEvery-Windows-v4.0.0.exe`（免安装、绿色便携）。
+3. **无线优先（同 Wi-Fi 免热点）**：手机与电脑连在**同一个 Wi-Fi** 下，直接点击电脑端启动按钮即可自动发现手机、同步自定义端口并开启 HTTP 或 TUN 全局共享；如需极致低延迟或穿透公共 Wi-Fi 隔离，插上 USB 线开启「USB 网络共享」即可。
+4. **共享给另一部手机 / iPad（免装客户端）**：在 Android 端开启「手机 / 平板免装共享」，另一部手机或 iPad 连入同 Wi-Fi 或热点并按顶部「指南」填入代理/PAC 即可上网（免费每日 90 分钟 / 单次 45 分钟，Pro 无限时长）。
 
 > **说明**：为保障安全，[Releases](../../releases) 页面**仅保留最新正式版安装包**；所有历史版本的更新记录均可在 [CHANGELOG.md](./CHANGELOG.md) 中公开查阅。
 
