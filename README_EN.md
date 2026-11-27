@@ -5,7 +5,7 @@
 **High-Speed Android ↔ Windows USB / Hotspot Network Bridge**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208%2B%20%7C%20Windows%2010%2F11-007AFF?style=flat-square)](#download--quick-start)
-[![Version](https://img.shields.io/badge/Version-v4.0.1-28C759?style=flat-square)](#download--quick-start)
+[![Version](https://img.shields.io/badge/Version-v4.0.2-28C759?style=flat-square)](#download--quick-start)
 [![Privacy](https://img.shields.io/badge/Privacy-Zero%20Telemetry-5856D6?style=flat-square)](./PRIVACY.md)
 
 [简体中文](./README.md) · [English](./README_EN.md) · [Changelog](./CHANGELOG.md) · [Contributing & Copyright](./CONTRIBUTING.md) · [Privacy](./PRIVACY.md)
@@ -37,11 +37,11 @@
 
 | Platform | Direct (GitHub Official) | Fast Mirror 1 (CN) | Fast Mirror 2 (CN) |
 |---|---|---|---|
-| **Windows** (`v4.0.1`, Portable) | [Download .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.1/ShareEvery-Windows-v4.0.1.exe) | [Mirror 1 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.1/ShareEvery-Windows-v4.0.1.exe) | [Mirror 2 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.1/ShareEvery-Windows-v4.0.1.exe) |
-| **Android** (`v4.0.1`, Android 8+) | [Download .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.1/ShareEvery-Android-v4.0.1.apk) | [Mirror 1 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.1/ShareEvery-Android-v4.0.1.apk) | [Mirror 2 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.1/ShareEvery-Android-v4.0.1.apk) |
+| **Windows** (`v4.0.2`, Portable) | [Download .exe](https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.2/ShareEvery-Windows-v4.0.2.exe) | [Mirror 1 .exe](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.2/ShareEvery-Windows-v4.0.2.exe) | [Mirror 2 .exe](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.2/ShareEvery-Windows-v4.0.2.exe) |
+| **Android** (`v4.0.2`, Android 8+) | [Download .apk](https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.2/ShareEvery-Android-v4.0.2.apk) | [Mirror 1 .apk](https://gh-proxy.com/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.2/ShareEvery-Android-v4.0.2.apk) | [Mirror 2 .apk](https://ghfast.top/https://github.com/knight-it1106/ShareEvery/releases/download/v4.0.2/ShareEvery-Android-v4.0.2.apk) |
 
-1. Install `ShareEvery-Android-v4.0.1.apk` on your phone and tap the power button.
-2. Run `ShareEvery-Windows-v4.0.1.exe` on Windows (portable, no installer required).
+1. Install `ShareEvery-Android-v4.0.2.apk` on your phone and tap the power button.
+2. Run `ShareEvery-Windows-v4.0.2.exe` on Windows (portable, no installer required).
 3. **Wireless First**: Connect phone and PC to the **same Wi-Fi** (no hotspot needed) and click Start on PC — or plug in USB Tethering for `<1ms` latency.
 4. **Share to Another Phone / iPad (Clientless)**: Enable **Share to Other Mobile Devices** on Android and follow the built-in Guide to set the PAC URL on iOS/iPadOS/Android (Free: 90 min/day, 45 min/session; Pro: unlimited).
 
